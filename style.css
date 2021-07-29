@@ -1,0 +1,74 @@
+/* Poppins Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-custom-color {
+  background: rgba(38, 70, 83, 1);
+}
+.custom-14px-font {
+  font-size: 14px;
+  font-weight: 300;
+}
+.custom-font-size {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.custom-header-title {
+  color: #e0e0e0;
+}
+.custom-btn-bg {
+    border: 1px solid rgba(231, 111, 81, 1);
+  background: rgba(231, 111, 81, 1);
+}
+
+.custom-color-font-size {
+  color: rgba(231, 111, 81, 1);
+  font-weight: 600;
+}
+
+.custom-img-width {
+  width: 80%;
+}
+.custom-image-gray-scale {
+  filter: grayscale(100%);
+}
+
+.custom-img-border-radius {
+  border-radius: 50%;
+}
+
+.ratings-color {
+  color: #e77c40;
+}
+.custom-user-name-color {
+  color: rgba(35, 166, 240, 1);
+  font-weight: 600;
+}
+.custom-faq-png{
+    width: 430px;
+    height: 423px;
+}
+footer{
+  background:#0B0D17;
+}
+.copyright-text-color{
+  color: #D9DBE1;
+}
+
+@media  (max-width:488px ) {
+    .custom-font-size {
+        font-size: 1.7rem;
+        font-weight: 600;
+      }
+      span{
+          display: block;
+      }
+      .custom-faq-png{
+          width: 320px;
+          height: 300px;
+      }
+ 
+}
