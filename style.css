@@ -5,6 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Custom Styles for color,fontSize,background,button */
+
 .bg-custom-color {
   background: rgba(38, 70, 83, 1);
 }
@@ -20,7 +22,7 @@
   color: #e0e0e0;
 }
 .custom-btn-bg {
-    border: 1px solid rgba(231, 111, 81, 1);
+  border: 1px solid rgba(231, 111, 81, 1);
   background: rgba(231, 111, 81, 1);
 }
 
@@ -32,12 +34,10 @@
 .custom-img-width {
   width: 80%;
 }
+
+/* Image gray scaling */
 .custom-image-gray-scale {
   filter: grayscale(100%);
-}
-
-.custom-img-border-radius {
-  border-radius: 50%;
 }
 
 .ratings-color {
@@ -52,7 +52,7 @@
     height: 423px;
 }
 
-
+/* Custom Media for mobile device */
 @media  (max-width:488px ) {
     .custom-font-size {
         font-size: 1.7rem;
