@@ -51,12 +51,7 @@
     width: 430px;
     height: 423px;
 }
-footer{
-  background:#0B0D17;
-}
-.copyright-text-color{
-  color: #D9DBE1;
-}
+
 
 @media  (max-width:488px ) {
     .custom-font-size {
